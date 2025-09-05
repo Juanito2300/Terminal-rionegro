@@ -1,0 +1,85 @@
+{
+  "companies": [
+    {"name":"Expreso Rionegro","phone":"(604) 310 0000","email":"ventas@expresorionegro.com","description":"Empresa regional con trayectos dentro del Oriente Antioqueño."},
+    {"name":"Transportes Oriente","phone":"(604) 320 1111","email":"info@transportesoriente.com","description":"Servicios intermunicipales y rutas a Medellín."},
+    {"name":"CoopeSonrío","phone":"(604) 333 2222","email":"contacto@coopesonrio.com","description":"Cooperativa de transporte urbano e intermunicipal."},
+    {"name":"Sotrasanvicente","phone":"(604) 555 1234","email":"atencion@sotrasanvicente.com","description":"Empresa con más de 40 años de trayectoria en el Oriente."},
+    {"name":"TransOriente","phone":"(604) 301 4545","email":"ventas@transoriente.com","description":"Transporte directo desde Rionegro hacia el suroriente antioqueño."},
+    {"name":"CoopeCarmen","phone":"(604) 400 5555","email":"servicio@coopecarmen.com","description":"Rutas frecuentes al Carmen de Viboral y municipios cercanos."},
+    {"name":"Rápido Medellín-Rionegro","phone":"(604) 410 1010","email":"info@rapidomedellinrionegro.com","description":"Ruta directa Aeropuerto JMC - Medellín."}
+  ],
+
+  "vehicles": [
+    {"type":"Bus","capacity":48,"services":["Aire acondicionado","Baño","WiFi"],"factor":1.1},
+    {"type":"Buseta","capacity":24,"services":["Aire acondicionado","Pantalla"],"factor":1.0},
+    {"type":"Aerovan","capacity":12,"services":["Carga ligera","Reclinación"],"factor":0.9},
+    {"type":"Taxi","capacity":4,"services":["Puerta a puerta","Pago con tarjeta"],"factor":1.2},
+    {"type":"Colectivo","capacity":12,"services":["Económico"],"factor":0.8},
+    {"type":"Microbus","capacity":16,"services":["Carga mediana","Confort"],"factor":1.0},
+    {"type":"VIP Van","capacity":8,"services":["Asientos de cuero","Pantalla","WiFi"],"factor":1.5}
+  ],
+
+  "routes": [
+    {"to":"Medellín","from":"Rionegro","distance":45,"duration":"1h15","description":"Conexión directa a terminales de Medellín."},
+    {"to":"La Ceja","from":"Rionegro","distance":20,"duration":"35m","description":"Rutas frecuentes para viajeros y estudiantes."},
+    {"to":"Guarne","from":"Rionegro","distance":12,"duration":"20m","description":"Trayectos cortos."},
+    {"to":"El Carmen de Viboral","from":"Rionegro","distance":28,"duration":"45m","description":"Conexión cultural y universitaria."},
+    {"to":"Marinilla","from":"Rionegro","distance":14,"duration":"25m","description":"Ruta corta con alta frecuencia."},
+    {"to":"El Santuario","from":"Rionegro","distance":32,"duration":"50m","description":"Ruta hacia el Oriente profundo."},
+    {"to":"Aeropuerto JMC","from":"Rionegro","distance":8,"duration":"15m","description":"Traslados al aeropuerto José María Córdova."},
+    {"to":"La Unión","from":"Rionegro","distance":35,"duration":"1h","description":"Ruta hacia zona agrícola del Oriente."},
+    {"to":"San Vicente","from":"Rionegro","distance":26,"duration":"40m","description":"Ruta hacia zonas frías de montaña."}
+  ],
+
+  "schedules": [
+    {"company":"Expreso Rionegro","vehicle":"Bus","from":"Rionegro","to":"Medellín","departure":"06:00","arrival":"07:15"},
+    {"company":"Expreso Rionegro","vehicle":"Aerovan","from":"Rionegro","to":"Medellín","departure":"07:30","arrival":"08:45"},
+    {"company":"Expreso Rionegro","vehicle":"Bus","from":"Rionegro","to":"Medellín","departure":"09:00","arrival":"10:15"},
+    {"company":"Expreso Rionegro","vehicle":"Buseta","from":"Rionegro","to":"Medellín","departure":"10:30","arrival":"11:45"},
+    {"company":"Expreso Rionegro","vehicle":"Bus","from":"Rionegro","to":"Medellín","departure":"12:00","arrival":"13:15"},
+    {"company":"Expreso Rionegro","vehicle":"Buseta","from":"Rionegro","to":"Medellín","departure":"14:00","arrival":"15:15"},
+    {"company":"Expreso Rionegro","vehicle":"Microbus","from":"Rionegro","to":"Medellín","departure":"16:00","arrival":"17:15"},
+    {"company":"Expreso Rionegro","vehicle":"Bus","from":"Rionegro","to":"Medellín","departure":"18:00","arrival":"19:15"},
+
+    {"company":"Transportes Oriente","vehicle":"Buseta","from":"Rionegro","to":"La Ceja","departure":"06:30","arrival":"07:05"},
+    {"company":"Transportes Oriente","vehicle":"Bus","from":"Rionegro","to":"La Ceja","departure":"08:00","arrival":"08:35"},
+    {"company":"Transportes Oriente","vehicle":"Buseta","from":"Rionegro","to":"La Ceja","departure":"09:30","arrival":"10:05"},
+    {"company":"Transportes Oriente","vehicle":"Aerovan","from":"Rionegro","to":"La Ceja","departure":"11:00","arrival":"11:35"},
+    {"company":"Transportes Oriente","vehicle":"Buseta","from":"Rionegro","to":"La Ceja","departure":"12:30","arrival":"13:05"},
+    {"company":"Transportes Oriente","vehicle":"Buseta","from":"Rionegro","to":"La Ceja","departure":"14:00","arrival":"14:35"},
+    {"company":"Transportes Oriente","vehicle":"Taxi","from":"Rionegro","to":"La Ceja","departure":"15:30","arrival":"16:05"},
+    {"company":"Transportes Oriente","vehicle":"Buseta","from":"Rionegro","to":"La Ceja","departure":"17:00","arrival":"17:35"},
+
+    {"company":"CoopeCarmen","vehicle":"Microbus","from":"Rionegro","to":"El Carmen de Viboral","departure":"07:00","arrival":"07:45"},
+    {"company":"CoopeCarmen","vehicle":"Taxi","from":"Rionegro","to":"El Carmen de Viboral","departure":"09:00","arrival":"09:45"},
+    {"company":"CoopeCarmen","vehicle":"Aerovan","from":"Rionegro","to":"El Carmen de Viboral","departure":"11:00","arrival":"11:45"},
+    {"company":"CoopeCarmen","vehicle":"Microbus","from":"Rionegro","to":"El Carmen de Viboral","departure":"13:00","arrival":"13:45"},
+    {"company":"CoopeCarmen","vehicle":"Buseta","from":"Rionegro","to":"El Carmen de Viboral","departure":"15:00","arrival":"15:45"},
+    {"company":"CoopeCarmen","vehicle":"Buseta","from":"Rionegro","to":"El Carmen de Viboral","departure":"17:00","arrival":"17:45"},
+
+    {"company":"Sotrasanvicente","vehicle":"Microbus","from":"Rionegro","to":"San Vicente","departure":"06:15","arrival":"06:55"},
+    {"company":"Sotrasanvicente","vehicle":"Aerovan","from":"Rionegro","to":"San Vicente","departure":"08:15","arrival":"08:55"},
+    {"company":"Sotrasanvicente","vehicle":"Buseta","from":"Rionegro","to":"San Vicente","departure":"10:15","arrival":"10:55"},
+    {"company":"Sotrasanvicente","vehicle":"Taxi","from":"Rionegro","to":"San Vicente","departure":"12:15","arrival":"12:55"},
+    {"company":"Sotrasanvicente","vehicle":"Aerovan","from":"Rionegro","to":"San Vicente","departure":"14:15","arrival":"14:55"},
+    {"company":"Sotrasanvicente","vehicle":"Aerovan","from":"Rionegro","to":"San Vicente","departure":"16:15","arrival":"16:55"},
+
+    {"company":"TransOriente","vehicle":"Colectivo","from":"Rionegro","to":"Marinilla","departure":"06:45","arrival":"07:10"},
+    {"company":"TransOriente","vehicle":"Bus","from":"Rionegro","to":"Marinilla","departure":"08:15","arrival":"08:40"},
+    {"company":"TransOriente","vehicle":"Bus","from":"Rionegro","to":"Marinilla","departure":"09:45","arrival":"10:10"},
+    {"company":"TransOriente","vehicle":"Colectivo","from":"Rionegro","to":"Marinilla","departure":"11:15","arrival":"11:40"},
+    {"company":"TransOriente","vehicle":"Bus","from":"Rionegro","to":"Marinilla","departure":"13:00","arrival":"13:25"},
+    {"company":"TransOriente","vehicle":"Buseta","from":"Rionegro","to":"Marinilla","departure":"15:00","arrival":"15:25"},
+    {"company":"TransOriente","vehicle":"Microbus","from":"Rionegro","to":"Marinilla","departure":"17:00","arrival":"17:25"},
+
+    {"company":"CoopeSonrío","vehicle":"Taxi","from":"Rionegro","to":"Guarne","departure":"07:10","arrival":"07:30"},
+    {"company":"CoopeSonrío","vehicle":"Colectivo","from":"Rionegro","to":"Guarne","departure":"08:40","arrival":"09:00"},
+    {"company":"CoopeSonrío","vehicle":"Microbus","from":"Rionegro","to":"Guarne","departure":"10:00","arrival":"10:20"},
+    {"company":"CoopeSonrío","vehicle":"Taxi","from":"Rionegro","to":"Guarne","departure":"11:30","arrival":"11:50"},
+    {"company":"CoopeSonrío","vehicle":"Colectivo","from":"Rionegro","to":"Guarne","departure":"13:00","arrival":"13:20"},
+    {"company":"CoopeSonrío","vehicle":"Aerovan","from":"Rionegro","to":"Guarne","departure":"15:00","arrival":"15:20"},
+
+    {"company":"Rápido Medellín-Rionegro","vehicle":"VIP Van","from":"Aeropuerto JMC","to":"Medellín","departure":"Cada 30 min","arrival":"50m aprox"},
+    {"company":"Rápido Medellín-Rionegro","vehicle":"Taxi","from":"Aeropuerto JMC","to":"Medellín","departure":"Disponible 24h","arrival":"40m aprox"}
+  ]
+}
