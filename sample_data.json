@@ -17,6 +17,27 @@
     {"type":"Colectivo","capacity":12,"services":["Económico"],"factor":0.8},
     {"type":"Microbus","capacity":16,"services":["Carga mediana","Confort"],"factor":1.0},
     {"type":"VIP Van","capacity":8,"services":["Asientos de cuero","Pantalla","WiFi"],"factor":1.5}
+    {"type":"Bus","capacity":48,"services":["Aire acondicionado","Baño","WiFi"],"factor":1.1},
+    {"type":"Buseta","capacity":24,"services":["Aire acondicionado","Pantalla"],"factor":1.0},
+    {"type":"Aerovan","capacity":12,"services":["Carga ligera","Reclinación"],"factor":0.9},
+    {"type":"Taxi","capacity":4,"services":["Puerta a puerta","Pago con tarjeta"],"factor":1.2},
+    {"type":"Colectivo","capacity":12,"services":["Económico"],"factor":0.8},
+    {"type":"Microbus","capacity":16,"services":["Carga mediana","Confort"],"factor":1.0},
+    {"type":"VIP Van","capacity":8,"services":["Asientos de cuero","Pantalla","WiFi"],"factor":1.5}
+    {"type":"Bus","capacity":48,"services":["Aire acondicionado","Baño","WiFi"],"factor":1.1},
+    {"type":"Buseta","capacity":24,"services":["Aire acondicionado","Pantalla"],"factor":1.0},
+    {"type":"Aerovan","capacity":12,"services":["Carga ligera","Reclinación"],"factor":0.9},
+    {"type":"Taxi","capacity":4,"services":["Puerta a puerta","Pago con tarjeta"],"factor":1.2},
+    {"type":"Colectivo","capacity":12,"services":["Económico"],"factor":0.8},
+    {"type":"Microbus","capacity":16,"services":["Carga mediana","Confort"],"factor":1.0},
+    {"type":"VIP Van","capacity":8,"services":["Asientos de cuero","Pantalla","WiFi"],"factor":1.5}
+    {"type":"Bus","capacity":48,"services":["Aire acondicionado","Baño","WiFi"],"factor":1.1},
+    {"type":"Buseta","capacity":24,"services":["Aire acondicionado","Pantalla"],"factor":1.0},
+    {"type":"Aerovan","capacity":12,"services":["Carga ligera","Reclinación"],"factor":0.9},
+    {"type":"Taxi","capacity":4,"services":["Puerta a puerta","Pago con tarjeta"],"factor":1.2},
+    {"type":"Colectivo","capacity":12,"services":["Económico"],"factor":0.8},
+    {"type":"Microbus","capacity":16,"services":["Carga mediana","Confort"],"factor":1.0},
+    {"type":"VIP Van","capacity":8,"services":["Asientos de cuero","Pantalla","WiFi"],"factor":1.5}
   ],
 
   "routes": [
@@ -82,4 +103,5 @@
     {"company":"Rápido Medellín-Rionegro","vehicle":"VIP Van","from":"Aeropuerto JMC","to":"Medellín","departure":"Cada 30 min","arrival":"50m aprox"},
     {"company":"Rápido Medellín-Rionegro","vehicle":"Taxi","from":"Aeropuerto JMC","to":"Medellín","departure":"Disponible 24h","arrival":"40m aprox"}
   ]
+
 }
